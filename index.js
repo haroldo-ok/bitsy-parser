@@ -3,6 +3,7 @@
 const {Renderer} = require('./renderer');
 const {TransitionManager} = require('./transition');
 const {Dialog} = require('./dialog');
+const {FontManager} = require('./font');
 
 module.exports = (function(){
 
