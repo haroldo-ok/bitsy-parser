@@ -1,6 +1,4 @@
 
-module.exports = (function(){
-
 /*
 TODO
 - reset renderer function
@@ -195,6 +193,4 @@ this.AttachContext = function(ctx) {
 
 } // Renderer()
 	
-return {Renderer};	
-	
-})();
+module.exports = {Renderer};

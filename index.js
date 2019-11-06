@@ -1,6 +1,7 @@
 'use strict';
 
 const {Renderer} = require('./renderer');
+const {TransitionManager} = require('./transition');
 
 module.exports = (function(){
 
