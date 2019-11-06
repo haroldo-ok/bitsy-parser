@@ -1,6 +1,6 @@
 'use strict';
 
-const {Renderer} = require('renderer');
+const {Renderer} = require('./renderer');
 
 module.exports = (function(){
 
