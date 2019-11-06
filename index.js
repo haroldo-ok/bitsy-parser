@@ -6,7 +6,7 @@ const {Dialog} = require('./dialog');
 const {FontManager} = require('./font');
 const {Script} = require('./script');
 
-module.exports = (function(){
+function context() {
 
 var xhr; // TODO : remove
 var canvas;
@@ -1318,7 +1318,7 @@ function serializeWorld(skipFonts) {
 	worldStr += "# BITSY VERSION " + getEngineVersion() + "\n"; // add version as a comment for debugging purposes
 	worldStr += "\n";
 	/* FLAGS */
-	for (f in flags) {
+	for (let f in flags) {
 		worldStr += "! " + f + " " + flags[f] + "\n";
 	}
 	worldStr += "\n"
@@ -1332,13 +1332,13 @@ function serializeWorld(skipFonts) {
 		worldStr += "\n"
 	}
 	/* PALETTE */
-	for (id in palette) {
+	for (let id in palette) {
 		if (id != "default") {
 			worldStr += "PAL " + id + "\n";
 			if( palette[id].name != null )
 				worldStr += "NAME " + palette[id].name + "\n";
-			for (i in getPal(id)) {
-				for (j in getPal(id)[i]) {
+			for (let i in getPal(id)) {
+				for (let j in getPal(id)[i]) {
 					worldStr += getPal(id)[i][j];
 					if (j < 2) worldStr += ",";
 				}
@@ -1348,12 +1348,12 @@ function serializeWorld(skipFonts) {
 		}
 	}
 	/* ROOM */
-	for (id in room) {
+	for (let id in room) {
 		worldStr += "ROOM " + id + "\n";
 		if ( flags.ROOM_FORMAT == 0 ) {
 			// old non-comma separated format
-			for (i in room[id].tilemap) {
-				for (j in room[id].tilemap[i]) {
+			for (let i in room[id].tilemap) {
+				for (let j in room[id].tilemap[i]) {
 					worldStr += room[id].tilemap[i][j];	
 				}
 				worldStr += "\n";
@@ -1361,8 +1361,8 @@ function serializeWorld(skipFonts) {
 		}
 		else if ( flags.ROOM_FORMAT == 1 ) {
 			// new comma separated format
-			for (i in room[id].tilemap) {
-				for (j in room[id].tilemap[i]) {
+			for (let i in room[id].tilemap) {
+				for (let j in room[id].tilemap[i]) {
 					worldStr += room[id].tilemap[i][j];
 					if (j < room[id].tilemap[i].length-1) worldStr += ","
 				}
@@ -1376,7 +1376,7 @@ function serializeWorld(skipFonts) {
 		if (room[id].walls.length > 0) {
 			/* WALLS */
 			worldStr += "WAL ";
-			for (j in room[id].walls) {
+			for (let j in room[id].walls) {
 				worldStr += room[id].walls[j];
 				if (j < room[id].walls.length-1) {
 					worldStr += ",";
@@ -1386,7 +1386,7 @@ function serializeWorld(skipFonts) {
 		}
 		if (room[id].items.length > 0) {
 			/* ITEMS */
-			for (j in room[id].items) {
+			for (let j in room[id].items) {
 				var itm = room[id].items[j];
 				worldStr += "ITM " + itm.id + " " + itm.x + "," + itm.y;
 				worldStr += "\n";
@@ -1394,7 +1394,7 @@ function serializeWorld(skipFonts) {
 		}
 		if (room[id].exits.length > 0) {
 			/* EXITS */
-			for (j in room[id].exits) {
+			for (let j in room[id].exits) {
 				var e = room[id].exits[j];
 				if ( isExitValid(e) ) {
 					worldStr += "EXT " + e.x + "," + e.y + " " + e.dest.room + " " + e.dest.x + "," + e.dest.y;
@@ -1434,7 +1434,7 @@ function serializeWorld(skipFonts) {
 		worldStr += "\n";
 	}
 	/* TILES */
-	for (id in tile) {
+	for (let id in tile) {
 		worldStr += "TIL " + id + "\n";
 		worldStr += serializeDrawing( "TIL_" + id );
 		if (tile[id].name != null && tile[id].name != undefined) {
@@ -1452,7 +1452,7 @@ function serializeWorld(skipFonts) {
 		worldStr += "\n";
 	}
 	/* SPRITES */
-	for (id in sprite) {
+	for (let id in sprite) {
 		worldStr += "SPR " + id + "\n";
 		worldStr += serializeDrawing( "SPR_" + id );
 		if (sprite[id].name != null && sprite[id].name != undefined) {
@@ -1478,7 +1478,7 @@ function serializeWorld(skipFonts) {
 		worldStr += "\n";
 	}
 	/* ITEMS */
-	for (id in item) {
+	for (let id in item) {
 		worldStr += "ITM " + id + "\n";
 		worldStr += serializeDrawing( "ITM_" + id );
 		if (item[id].name != null && item[id].name != undefined) {
@@ -1495,13 +1495,13 @@ function serializeWorld(skipFonts) {
 		worldStr += "\n";
 	}
 	/* DIALOG */
-	for (id in dialog) {
+	for (let id in dialog) {
 		worldStr += "DLG " + id + "\n";
 		worldStr += dialog[id] + "\n";
 		worldStr += "\n";
 	}
 	/* ENDINGS */
-	for (id in ending) {
+	for (let id in ending) {
 		worldStr += "END " + id + "\n";
 		worldStr += ending[id] + "\n";
 		worldStr += "\n";
@@ -1522,7 +1522,7 @@ function serializeWorld(skipFonts) {
 	// 	worldStr += "\n";
 	// }
 	/* VARIABLES */
-	for (id in variable) {
+	for (let id in variable) {
 		worldStr += "VAR " + id + "\n";
 		worldStr += variable[id] + "\n";
 		worldStr += "\n";
@@ -2348,10 +2348,26 @@ var scriptModule = new Script();
 var scriptInterpreter = scriptModule.CreateInterpreter();
 var scriptUtils = scriptModule.CreateUtils(); // TODO: move to editor.js?
 //scriptInterpreter.SetDialogBuffer( dialogBuffer );
+
 	
-	return {parseWorld};
+return {
+	parseWorld: code => {
+		parseWorld(code);
+		return {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId};
+	},
 	
-})();
+	serializeWorld: ({flags: _flags, title: _title, room: _room, tile: _tile, sprite: _sprite, item: _item, dialog: _dialog, palette: _palette, ending: _ending, variable: _variable, playerId: _playerId}) => {
+		[flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId] = [_flags, _title, _room, _tile, _sprite, _item, _dialog, _palette, _ending, _variable, _playerId];
+		return serializeWorld();
+	}
+};
+	
+}
+
+module.exports = {
+	parseWorld: code => context().parseWorld(code),
+	serializeWorld: world => context().serializeWorld(world)
+};
 
 const res = module.exports.parseWorld(`
 Escreve o título do teu jogo aqui
@@ -2467,3 +2483,11 @@ VAR a
 42
 
 `);
+
+const json = JSON.stringify(res);
+console.log(json);
+
+const world = JSON.parse(json);
+world.title = 'XPTO';
+const src = module.exports.serializeWorld(world);
+console.log(src);
