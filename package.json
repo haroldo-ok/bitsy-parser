@@ -1,0 +1,22 @@
+{
+  "name": "bitsy-parser",
+  "version": "0.0.1",
+  "description": "A parser for turning Bitsy scripts into JS objects, and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haroldo-ok/bitsy-parser/"
+  },
+  "keywords": [
+    "bitsy",
+    "8bit",
+    "parser",
+    "game-editor",
+    "retrogaming"
+  ],
+  "author": "Haroldo de Oliveira Pinheiro",
+  "license": "MIT"
+}
