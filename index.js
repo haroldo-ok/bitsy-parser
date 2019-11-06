@@ -2,6 +2,7 @@
 
 const {Renderer} = require('./renderer');
 const {TransitionManager} = require('./transition');
+const {Dialog} = require('./dialog');
 
 module.exports = (function(){
 
