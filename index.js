@@ -1,5 +1,7 @@
 'use strict';
 
+const {Renderer} = require('renderer');
+
 module.exports = (function(){
 
 var xhr; // TODO : remove
