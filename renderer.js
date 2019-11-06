@@ -1,3 +1,4 @@
+
 /*
 TODO
 - reset renderer function
@@ -191,3 +192,5 @@ this.AttachContext = function(ctx) {
 }
 
 } // Renderer()
+	
+module.exports = {Renderer};

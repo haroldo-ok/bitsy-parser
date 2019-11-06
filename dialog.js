@@ -851,3 +851,5 @@ var ShakyEffect = function() {
 TextEffects["shk"] = new ShakyEffect();
 
 } // Dialog()
+
+module.exports = {Dialog};

@@ -214,3 +214,5 @@ function Font(fontData) {
 }
 
 } // FontManager
+
+module.exports = {FontManager};
