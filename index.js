@@ -2353,7 +2353,9 @@ var scriptUtils = scriptModule.CreateUtils(); // TODO: move to editor.js?
 return {
 	parseWorld: code => {
 		parseWorld(code);
-		return {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId};
+		const parsedObject = {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId};
+		const cleanedObject = JSON.parse(JSON.stringify(parsedObject));
+		return cleanedObject;
 	},
 	
 	serializeWorld: ({flags: _flags, title: _title, room: _room, tile: _tile, sprite: _sprite, item: _item, dialog: _dialog, palette: _palette, ending: _ending, variable: _variable, playerId: _playerId}) => {
@@ -2368,126 +2370,3 @@ module.exports = {
 	parseWorld: code => context().parseWorld(code),
 	serializeWorld: world => context().serializeWorld(world)
 };
-
-const res = module.exports.parseWorld(`
-Escreve o título do teu jogo aqui
-
-# BITSY VERSION 6.4
-
-! ROOM_FORMAT 1
-
-PAL 0
-NAME teste
-204,2,69
-128,159,255
-225,255,1
-
-PAL 1
-255,255,255
-255,255,255
-255,255,255
-
-PAL 2
-255,255,255
-255,255,255
-255,255,255
-
-PAL 3
-255,255,255
-255,255,255
-255,255,255
-
-ROOM 0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
-0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-EXT 2,2 0 13,13
-EXT 13,13 0 2,2
-PAL 0
-
-TIL a
-11111111
-10000001
-10000001
-10011001
-10011001
-10000001
-10000001
-11111111
-
-SPR A
-00011000
-00011000
-00011000
-00111100
-01111110
-10111101
-00100100
-00100100
-POS 0 4,3
-
-SPR a
-00000000
-00000000
-01010001
-01110001
-01110010
-01111100
-00111100
-00100100
-DLG SPR_0
-POS 0 8,9
-
-ITM 0
-00000000
-00000000
-00000000
-00111100
-01100100
-00100100
-00011000
-00000000
-NAME tea
-DLG ITM_0
-
-DLG SPR_0
-"""
-I'm a {clr2}cat{clr2}{shuffle
-  - Not a dog.
-  - Can I haz chessburger?
-}{
-  - {item "0"} == 1 ?
-
-  - else ?
-
-}
-"""
-
-DLG ITM_0
-Encontraste um copo com chá quentinho
-
-VAR a
-42
-
-`);
-
-const json = JSON.stringify(res);
-console.log(json);
-
-const world = JSON.parse(json);
-world.title = 'XPTO';
-const src = module.exports.serializeWorld(world);
-console.log(src);
