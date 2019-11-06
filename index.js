@@ -4,6 +4,7 @@ const {Renderer} = require('./renderer');
 const {TransitionManager} = require('./transition');
 const {Dialog} = require('./dialog');
 const {FontManager} = require('./font');
+const {Script} = require('./script');
 
 module.exports = (function(){
 
@@ -1559,7 +1560,7 @@ function isExitValid(e) {
 }
 
 function placeSprites() {
-	for (id in spriteStartLocations) {
+	for (let id in spriteStartLocations) {
 		//console.log(id);
 		//console.log( spriteStartLocations[id] );
 		//console.log(sprite[id]);

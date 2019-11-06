@@ -1665,3 +1665,5 @@ var Parser = function(env) {
 }
 
 } // Script()
+
+module.exports = {Script};
