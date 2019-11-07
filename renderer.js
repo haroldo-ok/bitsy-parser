@@ -12,8 +12,6 @@ TODO
 
 function Renderer(tilesize, scale) {
 
-console.log("!!!!! NEW RENDERER");
-
 var imageStore = { // TODO : rename to imageCache
 	source: {},
 	render: {}
@@ -189,6 +187,10 @@ this.GetFrameCount = function(drawingId) {
 
 this.AttachContext = function(ctx) {
 	context = ctx;
+}
+
+this.GetImageSources = function() {
+	return imageStore.source;
 }
 
 } // Renderer()

@@ -650,12 +650,12 @@ function isMultilineListBlock(node) {
 	return false;
 }
 
-var FuncNode = function(name,arguments) {
+var FuncNode = function(name,_arguments) {
 	Object.assign( this, new TreeRelationship() );
 	// Object.assign( this, new Runnable() );
 	this.type = "function";
 	this.name = name;
-	this.arguments = arguments;
+	this.arguments = _arguments;
 
 	this.Eval = function(environment,onReturn) {
 
@@ -665,13 +665,13 @@ var FuncNode = function(name,arguments) {
 		// console.log(this.arguments);
 		var argumentValues = [];
 		var i = 0;
-		function evalArgs(arguments,done) {
-			if(i < arguments.length) {
+		function evalArgs(_arguments,done) {
+			if(i < _arguments.length) {
 				// Evaluate each argument
-				arguments[i].Eval( environment, function(val) {
+				_arguments[i].Eval( environment, function(val) {
 					argumentValues.push( val );
 					i++;
-					evalArgs(arguments,done);
+					evalArgs(_arguments,done);
 				} );
 			}
 			else {
