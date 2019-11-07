@@ -19,7 +19,7 @@
 
 ### 🏠 [Homepage](https://github.com/haroldo-ok/bitsy-parser)
 
-### ✨ [Demo](https://github.com/haroldo-ok/bitsy-parser)
+### ✨ [Examples](https://github.com/haroldo-ok/bitsy-parser/example)
 
 ## Install
 
@@ -29,8 +29,30 @@ npm install
 
 ## Usage
 
-```sh
-npm run demo
+In order to convert a bitsy script into a JS object, you can use `parseWorld()`:
+
+```javascript
+const {parseWorld} = require('../');
+const {readFileSync} = require('fs');
+
+const source = readFileSync('example.bitsy', 'utf8');
+const parsedObject = parseWorld(source);
+const json = JSON.stringify(parsedObject, {maxLength: 160});
+
+console.log(json);
+```
+
+In order to convert a properly structured JS object back into a bitsy script, you can use `serializeWorld()`:
+
+```javascript
+const {serializeWorld} = require('../');
+const {readFileSync} = require('fs');
+
+const source = readFileSync('example.json', 'utf8');
+const parsedObject = JSON.parse(source);
+const bitsyScript = serializeWorld(parsedObject);
+
+console.log(bitsyScript);
 ```
 
 ## Run tests
