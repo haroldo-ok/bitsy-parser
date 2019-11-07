@@ -19,7 +19,7 @@
 
 ### 🏠 [Homepage](https://github.com/haroldo-ok/bitsy-parser)
 
-### ✨ [Examples](https://github.com/haroldo-ok/bitsy-parser/example)
+### ✨ [Examples](https://github.com/haroldo-ok/bitsy-parser/tree/master/example)
 
 ## Install
 
