@@ -12,8 +12,6 @@ TODO
 
 function Renderer(tilesize, scale) {
 
-console.log("!!!!! NEW RENDERER");
-
 var imageStore = { // TODO : rename to imageCache
 	source: {},
 	render: {}

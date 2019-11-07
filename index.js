@@ -1294,8 +1294,6 @@ function parseWorld(file) {
 		curRoom = null;
 	}
 
-	console.log("START ROOM " + curRoom);
-
 	renderer.SetPalettes(palette);
 
 	// console.log(names);
