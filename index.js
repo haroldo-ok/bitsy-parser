@@ -1539,10 +1539,10 @@ function serializeWorld(skipFonts) {
 function serializeDrawing(drwId) {
 	var imageSource = renderer.GetImageSource(drwId);
 	var drwStr = "";
-	for (f in imageSource) {
-		for (y in imageSource[f]) {
+	for (let f in imageSource) {
+		for (let y in imageSource[f]) {
 			var rowStr = "";
-			for (x in imageSource[f][y]) {
+			for (let x in imageSource[f][y]) {
 				rowStr += imageSource[f][y][x];
 			}
 			drwStr += rowStr + "\n";
@@ -2353,13 +2353,19 @@ var scriptUtils = scriptModule.CreateUtils(); // TODO: move to editor.js?
 return {
 	parseWorld: code => {
 		parseWorld(code);
-		const parsedObject = {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId};
+		const parsedObject = {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId, images: renderer.GetImageSources()};
 		const cleanedObject = JSON.parse(JSON.stringify(parsedObject));
 		return cleanedObject;
 	},
 	
-	serializeWorld: ({flags: _flags, title: _title, room: _room, tile: _tile, sprite: _sprite, item: _item, dialog: _dialog, palette: _palette, ending: _ending, variable: _variable, playerId: _playerId}) => {
+	serializeWorld: ({flags: _flags, title: _title, room: _room, tile: _tile, sprite: _sprite, item: _item, dialog: _dialog, palette: _palette, ending: _ending, variable: _variable, playerId: _playerId, images: _images}) => {
 		[flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId] = [_flags, _title, _room, _tile, _sprite, _item, _dialog, _palette, _ending, _variable, _playerId];
+
+		for (let drawingId in _images) {
+			const imageData = _images[drawingId];
+			renderer.SetImageSource(drawingId, imageData);
+		}
+		
 		return serializeWorld();
 	}
 };

@@ -191,6 +191,10 @@ this.AttachContext = function(ctx) {
 	context = ctx;
 }
 
+this.GetImageSources = function() {
+	return imageStore.source;
+}
+
 } // Renderer()
 	
 module.exports = {Renderer};
