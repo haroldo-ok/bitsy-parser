@@ -58,7 +58,7 @@ console.log(bitsyScript);
 ## Run tests
 
 ```sh
-npm run test
+npm run test:watch
 ```
 
 ## Author

@@ -4,7 +4,9 @@
   "description": "A parser for turning Bitsy scripts into JS objects, and vice versa.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "node node_modules/.bin/jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "repository": {
     "type": "git",
