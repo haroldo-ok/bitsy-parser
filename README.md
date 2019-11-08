@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to bitsy-parser 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/haroldo-ok/bitsy-parser/#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -42,7 +42,7 @@ const json = JSON.stringify(parsedObject);
 console.log(json);
 ```
 
-In order to convert a properly structured JS object back into a bitsy script, you can use `serializeWorld()`:
+In order to convert a properly structured JS object back into a bitsy script, you can use `serializeWorld()` (*please, do keep in mind that, as of the current version, this routine is unreliable*):
 
 ```javascript
 const {serializeWorld} = require('../');
@@ -55,7 +55,7 @@ const bitsyScript = serializeWorld(parsedObject);
 console.log(bitsyScript);
 ```
 
-If you prefer to have the dialogs/endings parsed as ASTs, you can add the `parseScripts` options to `parseWorld()`; please, do keep in mind, though, that, as of version `0.0.1`, `serializeWorld()` cannot convert those back into bitsy scripts:
+If you prefer to have the dialogs/endings parsed as ASTs, you can add the `parseScripts` options to `parseWorld()`; please, do keep in mind, though, that, as of the current version, `serializeWorld()` cannot convert those back into bitsy scripts:
 
 ```javascript
 const {parseWorld} = require('../');

@@ -2364,12 +2364,35 @@ function doParseScripts(scripts) {
 	return processed;
 }
 	
+function doSplitLines(scripts) {
+	const processed = {};
+	
+	for (let id in scripts) {
+		const source = scripts[id];
+		processed[id] = source && source.split('\n');
+		
+	}
+	
+	return processed;
+}
+	
+function doJoinLines(scripts) {
+	const processed = {};
+	
+	for (let id in scripts) {
+		const source = scripts[id];
+		processed[id] = source && (source instanceof String ? source : source.join('\n'));
+	}
+	
+	return processed;
+}
+	
 return {
 	parseWorld: (code, {parseScripts}) => {
 		parseWorld(code);
 		
-		const convertedDialogs = parseScripts ? doParseScripts(dialog) : dialog;
-		const convertedEndings = parseScripts ? doParseScripts(ending) : ending;
+		const convertedDialogs = parseScripts ? doParseScripts(dialog) : doSplitLines(dialog);
+		const convertedEndings = parseScripts ? doParseScripts(ending) : doSplitLines(ending);
 		
 		const parsedObject = {flags, title, room, tile, sprite, item, dialog: convertedDialogs, palette, ending: convertedEndings, variable, playerId, images: renderer.GetImageSources()};
 		const cleanedObject = JSON.parse(JSON.stringify(parsedObject));
@@ -2377,7 +2400,7 @@ return {
 	},
 	
 	serializeWorld: ({flags: _flags, title: _title, room: _room, tile: _tile, sprite: _sprite, item: _item, dialog: _dialog, palette: _palette, ending: _ending, variable: _variable, playerId: _playerId, images: _images}) => {
-		[flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId] = [_flags, _title, _room, _tile, _sprite, _item, _dialog, _palette, _ending, _variable, _playerId];
+		[flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId] = [_flags, _title, _room, _tile, _sprite, _item, doJoinLines(_dialog), _palette, doJoinLines(_ending), _variable, _playerId];
 
 		for (let drawingId in _images) {
 			const imageData = _images[drawingId];
