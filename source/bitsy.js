@@ -2346,12 +2346,32 @@ var scriptModule = new Script();
 var scriptInterpreter = scriptModule.CreateInterpreter();
 var scriptUtils = scriptModule.CreateUtils(); // TODO: move to editor.js?
 //scriptInterpreter.SetDialogBuffer( dialogBuffer );
-
+	
+function doParseScripts(scripts) {
+	const processed = {};
+	
+	const isEmptyArray = (k, v) => (k === 'children' || k === 'arguments') && v && !v.length;
+	const ignoreUnnecessaryAttrs = (k, v) => k === 'parent' || isEmptyArray(k, v) ? undefined : v;
+	
+	for (let id in scripts) {
+		const source = scripts[id];
+		const parsedScript = scriptInterpreter.Parse(source);
+		const cleanedScript = JSON.parse(JSON.stringify(parsedScript, ignoreUnnecessaryAttrs));
+		processed[id] = cleanedScript;
+		
+	}
+	
+	return processed;
+}
 	
 return {
-	parseWorld: code => {
+	parseWorld: (code, {parseScripts}) => {
 		parseWorld(code);
-		const parsedObject = {flags, title, room, tile, sprite, item, dialog, palette, ending, variable, playerId, images: renderer.GetImageSources()};
+		
+		const convertedDialogs = parseScripts ? doParseScripts(dialog) : dialog;
+		const convertedEndings = parseScripts ? doParseScripts(ending) : ending;
+		
+		const parsedObject = {flags, title, room, tile, sprite, item, dialog: convertedDialogs, palette, ending: convertedEndings, variable, playerId, images: renderer.GetImageSources()};
 		const cleanedObject = JSON.parse(JSON.stringify(parsedObject));
 		return cleanedObject;
 	},
@@ -2371,6 +2391,6 @@ return {
 }
 
 module.exports = {
-	parseWorld: code => context().parseWorld(code),
+	parseWorld: (code, {parseScripts=false}={}) => context().parseWorld(code, {parseScripts}),
 	serializeWorld: world => context().serializeWorld(world)
 };

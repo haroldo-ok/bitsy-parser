@@ -37,7 +37,7 @@ const {readFileSync} = require('fs');
 
 const source = readFileSync('example.bitsy', 'utf8');
 const parsedObject = parseWorld(source);
-const json = JSON.stringify(parsedObject, {maxLength: 160});
+const json = JSON.stringify(parsedObject);
 
 console.log(json);
 ```
@@ -53,6 +53,19 @@ const parsedObject = JSON.parse(source);
 const bitsyScript = serializeWorld(parsedObject);
 
 console.log(bitsyScript);
+```
+
+If you prefer to have the dialogs/endings parsed as ASTs, you can add the `parseScripts` options to `parseWorld()`; please, do keep in mind, though, that, as of version `0.0.1`, `serializeWorld()` cannot convert those back into bitsy scripts:
+
+```javascript
+const {parseWorld} = require('../');
+const {readFileSync} = require('fs');
+
+const source = readFileSync('example.bitsy', 'utf8');
+const parsedObject = parseWorld(source, {parseScripts: true});
+const json = JSON.stringify(parsedObject);
+
+console.log(json);
 ```
 
 ## Run tests

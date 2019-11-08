@@ -1,0 +1,1921 @@
+Red Dog and the Endless Spaceship by Amy Clare Fontaine
+
+# BITSY VERSION 6.4
+
+! ROOM_FORMAT 1
+
+PAL 0
+0,0,0
+50,131,135
+255,4,8
+
+ROOM 0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM 0 8,10
+EXT 0,7 1 15,8
+PAL 0
+
+ROOM 1
+a,a,a,a,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,0,0,e,0,0,0,a,0,i,0,0,0
+0,0,0,0,d,0,e,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,f,f,f,f,a,0,0,0,i,0
+0,0,0,0,0,d,0,0,d,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,a,a,a,a,a
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,a,a,a,a,a
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,i,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,i,0
+a,a,a,a,a,a,a,a,a,a,a,0,0,0,0,0
+EXT 0,2 2 15,2
+EXT 0,3 2 15,3
+EXT 0,4 2 15,4
+EXT 0,5 2 15,5
+EXT 0,6 2 15,6
+EXT 0,7 2 15,7
+EXT 0,8 2 15,8
+EXT 0,9 2 15,9
+EXT 0,10 2 15,10
+EXT 0,11 2 15,11
+EXT 0,12 2 15,12
+EXT 0,13 2 15,13
+EXT 0,14 2 15,14
+EXT 15,8 0 0,7
+EXT 0,1 2 15,1
+PAL 0
+
+ROOM 2
+0,0,0,0,0,0,0,0,0,0,a,a,a,a,a,a
+0,0,0,i,0,0,0,0,i,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,i,0,0,0,0,i,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,0,0,0,0
+0,i,0,0,0,0,0,i,0,0,a,0,0,0,0,0
+0,0,0,0,i,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,a,a,a,a,a,a
+EXT 15,2 1 0,2
+EXT 15,3 1 0,3
+EXT 15,4 1 0,4
+EXT 15,5 1 0,5
+EXT 15,6 1 0,6
+EXT 15,7 1 0,7
+EXT 15,8 1 0,8
+EXT 15,9 1 0,9
+EXT 15,10 1 0,10
+EXT 15,11 1 0,11
+EXT 15,12 1 0,12
+EXT 15,13 1 0,13
+EXT 15,14 1 0,14
+EXT 0,8 3 15,8
+EXT 0,9 3 15,9
+EXT 0,10 3 15,10
+EXT 15,1 1 0,1
+PAL 0
+
+ROOM 3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,i,0,0,0,i,0,0,0,i,0,0,0,i,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,i,0,0,0,i,0,0,0,i,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,a,0,0,0,0,0,0,0,0,a,a,a,a,a
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,0,0,0,g,g,g,g,g,g,0,0,0,0,0,0
+0,0,0,0,g,g,g,g,g,g,0,0,0,0,0,0
+a,0,0,0,g,g,g,g,g,g,0,0,0,a,a,a
+0,a,0,0,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,a,0,0,0,0,0,0,0,0,a,0,0,0,0
+j,0,0,a,a,a,a,a,a,a,a,0,0,0,i,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 15,8 2 0,8
+EXT 15,9 2 0,9
+EXT 15,10 2 0,10
+EXT 0,10 4 15,10
+PAL 0
+
+ROOM 4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,i,0,0,0,i,0,0,0,i,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,0,0,0,i,0,0,0,i,0,0
+0,0,0,0,0,a,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,0,0,a,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,a,a,a,a,a,a,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,0,a,a,a
+0,i,0,a,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,a,a,a,a,a,a,a,a,a,a,a,a
+j,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,i,0,0,0,i,0,0,0,i,0,0,0
+0,0,i,0,0,0,i,0,0,0,i,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 15,10 3 0,10
+EXT 0,5 5 15,5
+PAL 0
+
+ROOM 5
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,i,0,0,0,0,0,0,0,0,i,0,0
+0,0,a,0,0,0,0,0,0,i,0,0,0,0,0,0
+0,a,0,a,0,0,0,0,0,0,0,0,a,a,a,0
+a,0,0,0,a,0,0,i,0,0,0,a,0,0,0,a
+0,0,0,0,0,a,0,0,0,0,a,0,0,0,0,0
+0,a,0,0,0,0,a,0,0,a,0,0,0,a,a,a
+a,0,a,0,0,0,0,a,a,0,0,0,0,a,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,0,0,a,0,0,0,0,0,0,0,a,0,0,0
+0,i,0,0,0,a,0,0,0,0,0,a,0,0,i,0
+0,0,0,0,0,0,a,0,0,0,a,0,0,0,0,0
+0,0,0,i,0,0,0,a,0,a,0,0,i,0,0,0
+0,0,0,0,0,0,0,0,a,0,0,0,0,0,0,0
+0,i,0,0,0,0,0,0,0,0,0,0,0,0,i,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 15,5 4 0,5
+EXT 0,5 6 15,5
+EXT 0,6 6 15,6
+PAL 0
+
+ROOM 6
+0,0,0,0,0,0,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,0,0,a,0,0,i,0
+0,0,0,0,0,0,0,a,a,a,0,0,a,0,0,0
+0,0,0,0,0,0,0,0,0,a,0,0,0,a,0,0
+0,i,0,0,0,0,0,0,a,0,0,0,0,0,a,a
+0,0,0,0,0,0,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,a,a,0,0,0,0,0,a,a
+0,0,0,0,0,0,0,0,0,a,0,0,0,a,0,0
+0,0,0,0,i,0,0,0,a,0,0,0,0,a,0,0
+0,0,0,0,0,0,0,a,0,0,0,0,0,a,0,0
+0,0,0,0,0,0,0,0,a,a,0,0,0,a,0,0
+0,0,0,0,0,0,0,0,0,0,a,0,a,0,0,0
+a,a,a,a,a,a,a,a,a,a,0,0,a,0,i,0
+0,0,0,0,0,0,0,0,0,0,0,0,a,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,a,a,0,0,0
+EXT 15,5 5 0,5
+EXT 15,6 5 0,6
+EXT 0,14 7 15,14
+PAL 0
+
+ROOM 7
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,0,i,0,0,i,0,0,0,i,0,0
+0,0,0,0,a,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,a,0,0,i,0,0,0,i,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,0,0,0,0,0,0
+a,a,0,0,a,0,0,0,0,i,0,0,0,i,0,0
+0,0,a,0,a,0,0,0,0,0,0,0,0,0,0,0
+0,0,a,0,0,a,a,0,0,0,0,i,0,0,0,0
+0,0,0,a,0,0,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,a,a,0,a,0,0,0,0,0,i,0,0
+0,i,0,0,0,a,0,0,a,0,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,a,0,0,0,0,0
+0,i,0,i,0,0,0,a,0,0,0,a,0,0,0,0
+0,0,0,0,0,0,0,0,a,a,0,0,a,a,a,a
+0,0,0,i,0,i,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,a,a,a,a,a
+EXT 15,14 6 0,14
+EXT 0,2 8 15,2
+EXT 0,3 8 15,3
+EXT 0,4 8 15,4
+PAL 0
+
+ROOM 8
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,a,a,a,a,a,a,a,a,a,a,a,a
+0,0,0,a,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,0,a,a,a,a,a,a,a,a,a
+0,0,0,a,0,0,0,a,0,0,0,0,0,0,0,0
+0,i,0,a,0,0,0,a,0,0,i,0,i,0,0,0
+0,0,0,a,0,0,0,a,0,0,0,0,0,0,0,i
+0,0,0,a,0,0,0,a,0,i,0,0,0,i,0,0
+a,a,a,a,0,0,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,a,0,i,0,0,0,i,0,0
+0,0,0,0,0,0,0,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,a,0,0,i,0,i,0,0,0
+a,a,a,a,a,a,a,a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 15,2 7 0,2
+EXT 15,3 7 0,3
+EXT 15,4 7 0,4
+EXT 0,11 9 15,11
+EXT 0,12 9 15,12
+EXT 0,13 9 15,13
+PAL 0
+
+ROOM 9
+0,a,0,0,0,i,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,l,0,0,l,0,0,0,0,a,0
+0,a,0,0,0,m,0,0,0,0,m,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,h,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 15,11 8 0,11
+EXT 15,12 8 0,12
+EXT 15,13 8 0,13
+EXT 0,8 0 11,7
+PAL 0
+
+TIL a
+11111111
+10000001
+10111101
+10111101
+10111101
+10111101
+10000001
+11111111
+NAME spaceship walls
+WAL true
+
+TIL d
+00000000
+00000000
+00000000
+01111110
+01111110
+01000010
+01000010
+01000010
+NAME stool
+WAL true
+
+TIL e
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+WAL false
+
+TIL f
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+WAL false
+
+TIL g
+01000100
+10101010
+10010010
+00010000
+00010000
+00010000
+00010000
+00000000
+NAME plant
+WAL true
+
+TIL h
+11111111
+11000011
+10000001
+10000001
+10000001
+10000001
+11000011
+11111111
+NAME airlock
+
+TIL i
+10010010
+01010100
+00111000
+00010000
+00101000
+01000100
+10000010
+00000000
+
+TIL j
+01001001
+00101010
+00011100
+00001000
+00010100
+00100010
+01000001
+00000000
+
+TIL k
+00010000
+01010100
+00111000
+00010000
+00101000
+01000100
+00000000
+00000000
+
+TIL l
+10010010
+01010100
+00111000
+00010000
+00101000
+01000100
+10000010
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME tile i2
+
+TIL m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01001001
+00101010
+00011100
+00001000
+00010100
+00100010
+01000001
+00000000
+NAME tile j2
+
+SPR 10
+11101110
+10101010
+00110000
+01010000
+00110010
+11111100
+00111100
+11100111
+NAME rabbit
+DLG SPR_n
+POS 7 1,3
+
+SPR 11
+01111100
+01000100
+01111100
+00010000
+00010000
+00010000
+00010000
+00010000
+NAME sign
+DLG SPR_o
+POS 9 3,8
+
+SPR 12
+01110000
+01010000
+01010000
+01000110
+01110010
+00010010
+00011110
+00000000
+>
+01110000
+01010000
+01010000
+01000110
+01110100
+00010100
+00011100
+00000000
+NAME snake2
+DLG SPR_p
+POS 8 5,10
+
+SPR 13
+11111111
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+POS 9 4,0
+
+SPR 14
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 5,0
+
+SPR 15
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 6,0
+
+SPR 16
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 7,0
+
+SPR 17
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 8,0
+
+SPR 18
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 9,0
+
+SPR 19
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 10,0
+
+SPR A
+00000000
+11011010
+01110010
+11010010
+11110010
+00111100
+00111100
+00100100
+>
+00000000
+11011001
+01110001
+11010001
+11110010
+00111100
+00111100
+00100100
+POS 0 11,7
+
+SPR a
+01110000
+01010000
+01010000
+01000110
+01110010
+00010010
+00011110
+00000000
+>
+01110000
+01010000
+01010000
+01000110
+01110100
+00010100
+00011100
+00000000
+NAME Snake
+DLG SPR_0
+POS 0 4,4
+
+SPR d
+00000000
+00000011
+01010101
+01110001
+01110010
+00111100
+00111100
+00100100
+>
+01010111
+01110001
+01110011
+00111100
+00111100
+00100100
+00000000
+00000000
+>
+00000000
+00000011
+01010101
+01110001
+01110010
+00111100
+00111100
+00100100
+NAME Captain Dudebro
+DLG SPR_3
+POS 1 6,11
+
+SPR e
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer1
+DLG SPR_1
+POS 0 11,3
+
+SPR f
+00000000
+00000000
+00000000
+00111000
+00010000
+00111000
+00101000
+00111000
+>
+01000010
+00100100
+00000000
+00111000
+00010000
+00111000
+00101000
+00111000
+NAME fountain
+DLG SPR_2
+POS 1 3,7
+
+SPR g
+11100000
+10100110
+11101111
+01101111
+01111111
+11111111
+10101001
+10101001
+NAME Turtle
+DLG SPR_4
+POS 1 8,2
+
+SPR h
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer2
+DLG SPR_5
+POS 2 12,13
+
+SPR i
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer3
+DLG SPR_6
+POS 3 2,12
+
+SPR j
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer4
+DLG SPR_7
+POS 4 5,6
+
+SPR k
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer5
+DLG SPR_8
+POS 5 12,4
+
+SPR l
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer6
+DLG SPR_9
+POS 5 10,6
+
+SPR m
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer7
+DLG SPR_a
+POS 5 10,10
+
+SPR n
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer8
+DLG SPR_b
+POS 5 8,12
+
+SPR o
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer9
+DLG SPR_c
+POS 5 6,10
+
+SPR p
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer10
+DLG SPR_d
+POS 5 4,8
+
+SPR q
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer11
+DLG SPR_e
+POS 5 4,5
+
+SPR r
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer12
+DLG SPR_f
+POS 5 2,3
+
+SPR s
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer13
+DLG SPR_g
+POS 6 10,11
+
+SPR t
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer14
+DLG SPR_h
+POS 7 3,2
+
+SPR u
+00000000
+00000000
+00111100
+00100100
+00100100
+01111110
+00011000
+00011000
+NAME computer15
+DLG SPR_i
+POS 8 8,2
+
+SPR v
+00000000
+00110000
+11010000
+00110000
+00111110
+00111100
+00111100
+00101000
+>
+00000000
+00110000
+11010100
+00110100
+11111110
+00111100
+00111100
+00101000
+NAME Crowlena
+DLG SPR_j
+POS 2 12,4
+
+SPR w
+10100000
+11110001
+01000001
+01111111
+01111100
+01000100
+01000100
+00000000
+>
+10100010
+11110100
+01000010
+01111100
+01111100
+01000100
+01000100
+00000000
+NAME Weezer
+DLG SPR_k
+POS 3 4,8
+
+SPR x
+00000110
+00001000
+00111100
+01011010
+01111110
+01011010
+01000010
+00111100
+NAME pumpkin
+DLG SPR_l
+POS 4 8,8
+
+SPR z
+00000000
+00111010
+01011100
+01111010
+00010000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00111010
+01011100
+01111010
+00010000
+NAME fish
+DLG SPR_m
+POS 6 7,6
+
+SPR 1a
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR 1b
+11111111
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+POS 9 11,0
+
+SPR 1c
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+POS 9 4,1
+
+SPR 1d
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+POS 9 4,2
+
+SPR 1e
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+POS 9 11,1
+
+SPR 1f
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+POS 9 11,2
+
+SPR 1g
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11111111
+11111111
+DLG SPR_z
+POS 9 4,3
+
+SPR 1h
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_y
+POS 9 5,3
+
+SPR 1i
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_x
+POS 9 6,3
+
+SPR 1j
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_w
+POS 9 7,3
+
+SPR 1k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_v
+POS 9 8,3
+
+SPR 1l
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_u
+POS 9 9,3
+
+SPR 1m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+DLG SPR_t
+POS 9 10,3
+
+SPR 1n
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+11111111
+11111111
+NAME goodending
+DLG SPR_s
+POS 9 11,3
+
+SPR 1o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+POS 9 3,3
+
+SPR 1p
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+POS 9 12,3
+
+SPR 1q
+00000000
+00000011
+01010101
+01110001
+01110010
+00111100
+00111100
+00100100
+>
+01010111
+01110001
+01110011
+00111100
+00111100
+00100100
+00000000
+00000000
+>
+00000000
+00000011
+01010101
+01110001
+01110010
+00111100
+00111100
+00100100
+NAME dudebroClone
+DLG SPR_q
+POS 9 12,5
+
+ITM 0
+00000000
+00000000
+00111100
+00111100
+00111100
+01111110
+00000000
+00000000
+NAME hat
+DLG ITM_0
+
+DLG SPR_0
+"""
+"Salutations, Red Dog. I am Flight Attendant Snake. Welcome to your luxury interstellar cruise.
+Trust no one. This ship runs on lies. Have a nice flight."
+"""
+
+DLG SPR_1
+"""
+{
+  - metComputer1 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate 5-million hot dog purple. It seems we have been traveling through the stars forever. I have no idea how long we've been out here in the vast, unforgiving black. I need to start keeping better records. That's {rbw}w{rbw}hy I've begun this Captain's Log. LOL."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate 5-million hot dog purple. It seems we have been traveling through the stars forever. I have no idea how long we've been out here in the vast, unforgiving black. I need to start keeping better records. That's {rbw}w{rbw}hy I've begun this Captain's Log. LOL."{metComputer1 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG ITM_0
+The Captain's hat. It is a very nice hat.
+
+DLG SPR_2
+An antigrav fountain. It sprays fruit punch. Not the most convenient thing to have on a spaceship.
+
+DLG SPR_3
+"""
+{
+  - metFox == 0 ?
+    "Hey there, Red Dog! Captain DudeBro here. I'm a fox!"{metFox = 1}
+  - hatDelivery == 1 ?
+    {rbw}{rbw}"Who's steering the ship? I don't know. I'm just the Captain. {wvy}{rbw}Tee hee!{rbw}{wvy}"
+  - {item "0"} == 1 ?
+    "Oh, thank you for finding my hat, Red Dog! Yum. Tastes like chicken.
+    
+    Could I ask you, like, a teensy favor? I've kind of, um, forgotten, like, why we're here? Who we are? What this cruise is all about? That sort of thing?
+    
+    {wvy}...{wvy}
+    
+    I recorded Captain's Logs on computers all over the ship. There's a rainbow letter in each log entry. If you find all fifteen rainbow letters and enter them into my main computer on the bridge, the ship will remember the message even though I don't. Thanks bunches, Red Dog! {rbw}Wheeee!{rbw}{hatDelivery = 1}
+  - metFox == 1 ?
+    "Have you seen my hat, Red Dog? It is a very nice hat, and I'm very hungry."
+}
+"""
+
+DLG SPR_4
+"""
+{sequence
+  - "Hello, Red Dog. Would you care for a drink? No? ...Well, you're probably right, zero-g isn't the best place for that. But we have to maintain appearances."
+  - "Our Captain over there is so annoying. He mocks my diapsid heritage and never does a lick of work. Mammals. Pah."
+  - "Please don't come behind the bar. I'm working."
+}
+"""
+
+DLG SPR_5
+"""
+{
+  - metComputer2 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Foxtrot Tango What{rbw}e{rbw}ver. My brother told me there's a planet made of cotton candy. I was five years old when he said that so I don't know if it's true. I can't recall where we're going on this cruise but if it's a planet like that, that would be pretty sweet. Pun intended. {wvy}Tee hee!{wvy}"
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Foxtrot Tango What{rbw}e{rbw}ver. My brother told me there's a planet made of cotton candy. I was five years old when he said that so I don't know if it's true. I can't recall where we're going on this cruise but if it's a planet like that, that would be pretty sweet. Pun intended. {wvy}Tee hee!{wvy}"{metComputer2 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_6
+"""
+{
+  - metComputer3 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Mattress Romping Toucan 3711. I can't remember Space Academy. I can't remember my times tables. But I sure as heck can c{rbw}a{rbw}ptain this starship! You betcha!"
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Mattress Romping Toucan 3711. I can't remember Space Academy. I can't remember my times tables. But I sure as heck can c{rbw}a{rbw}ptain this starship! You betcha!"{metComputer3 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_7
+"""
+{
+  - metComputer4 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Pineapple Ocean 4 Square. I can only remembe{rbw}r{rbw} fragments, scattered recollections, dim-lit dreams. Tragedies and triumphs, love and betrayal, death and rebirth.
+    But I think it was an okay movie."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Pineapple Ocean 4 Square. I can only remembe{rbw}r{rbw} fragments, scattered recollections, dim-lit dreams. Tragedies and triumphs, love and betrayal, death and rebirth.
+    But I think it was an okay movie."{metComputer4 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_8
+"""
+{
+  - metComputer5 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Rocky Sunlight 208. Cantaloupes. Milk. K{rbw}e{rbw}y lime pie. Potatoes.
+    Oops, that's my grocery list."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Rocky Sunlight 208. Cantaloupes. Milk. K{rbw}e{rbw}y lime pie. Potatoes.
+    Oops, that's my grocery list."{metComputer5 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_9
+"""
+{
+  - metComputer6 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate
+    Penel{rbw}o{rbw}pe Waking Bad. If she woke up it really would be bad.
+    What's today's date again?"
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate
+    Penel{rbw}o{rbw}pe Waking Bad. If she woke up it really would be bad.
+    What's today's date again?"{metComputer6 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_a
+"""
+{
+  - metComputer7 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Candy Corn Espresso 4095. Space is pretty great, but sometimes I wonder if I made the wrong decision. I could have done something way cooler. I could have been a receptio{rbw}n{rbw}ist. Or a gas station clerk! I've wasted my life.
+    Sad face :'("
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Candy Corn Espresso 4095. Space is pretty great, but sometimes I wonder if I made the wrong decision. I could have done something way cooler. I could have been a receptio{rbw}n{rbw}ist. Or a gas station clerk! I've wasted my life.
+    Sad face :'("{metComputer7 = 1}
+    {clues = clues + 1}
+}
+"""
+
+DLG SPR_b
+"""
+{
+  - metComputer8 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Wa{rbw}l{rbw}rus Vomit 560. We actually fought a cool monster today. A really cool {shk}{clr2}ALIEN{clr2}{shk} monster! But I'm too tired to write about it. Going to bed."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Wa{rbw}l{rbw}rus Vomit 560. We actually fought a cool monster today. A really cool {shk}{clr2}ALIEN{clr2}{shk} monster! But I'm too tired to write about it. Going to bed."{metComputer8 = 1}
+    {clues = clues + 1}
+}
+"""
+
+DLG SPR_c
+"""
+{
+  - metComputer9 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Yo-yo 9586. The crew has been talking about me behind my back. They
+    sa{rbw}y{rbw} I'm eccentric. I'm really flattered!"
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Yo-yo 9586. The crew has been talking about me behind my back. They
+    sa{rbw}y{rbw} I'm eccentric. I'm really flattered!"{metComputer9 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_d
+"""
+{
+  - metComputer10 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate 13 Going On 30. Went on a mission for the Emperor of the Galaxy. We introduced an exoplanetary culture to the ancient art of roller {rbw}s{rbw}kating. Proud to be a Captain today."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate 13 Going On 30. Went on a mission for the Emperor of the Galaxy. We introduced an exoplanetary culture to the ancient art of roller {rbw}s{rbw}kating. Proud to be a Captain today."{metComputer10 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_e
+"""
+{
+  - metComputer11 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate Pooky 999999991. Went on shore leave. Bought a {rbw}h{rbw}at."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate Pooky 999999991. Went on shore leave. Bought a {rbw}h{rbw}at."{metComputer11 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_f
+"""
+{
+  - metComputer12 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate 3. Engineering found a new way to utilize h{rbw}a{rbw}mster ball energy. Feeling really proud of those greasy ducklings."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate 3. Engineering found a new way to utilize h{rbw}a{rbw}mster ball energy. Feeling really proud of those greasy ducklings."{metComputer12 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_g
+"""
+{
+  - metComputer13 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate 393085 Doctor Where. Because I come into contact with danger on a daily basis, I often think about how I'd like to be remembered.
+    I'd {rbw}p{rbw}refer it to being forgotten."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate 393085 Doctor Where. Because I come into contact with danger on a daily basis, I often think about how I'd like to be remembered.
+    I'd {rbw}p{rbw}refer it to being forgotten."{metComputer13 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_h
+"""
+{
+  - metComputer14 == 1 ?
+    A computer is here.
+    "Captain's Log: Stardate 61210. I still can't remember where we're going on this cruise. I hope it's somewhere nic{rbw}e{rbw}."
+  - else ?
+    A computer is here.
+    "Captain's Log: Stardate 61210. I still can't remember where we're going on this cruise. I hope it's somewhere nic{rbw}e{rbw}."{metComputer14 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_i
+"""
+{
+  - metComputer15 == 1 ?
+    A computer is here.
+    "Captain's Log: Earth Year 2019. Life i{rbw}s{rbw} but a dream."
+  - else ?
+    A computer is here.
+    "Captain's Log: Earth Year 2019. Life i{rbw}s{rbw} but a dream."{metComputer15 = 1}
+{clues = clues + 1}
+}
+"""
+
+DLG SPR_j
+"""
+{sequence
+  - "Greetings, Red Dog! I am Science Officer Crowlena. I am flapping my wings in order to test a hypothesis about generating artificial air currents in the pressurized environment of a spaceship. But what do you care? You're a dog. Go chase a bone or bury a stick or something."
+  - "Caw caw! Raw raw data to be analyzed! Must be {shk}caaawtious{shk} with my methods. Mmyes."
+  - "Your brain is as empty as the vacuum of space."
+  - "No air in a spaceship. Is this really a spaceship?
+    {wvy}...{wvy}
+    
+    Your face is a spaceship."
+}
+"""
+
+DLG SPR_k
+"""
+{sequence
+  - "Wazzup. The name's Weezer. Yeah, I'm a stoat. Shut up.
+    I'm a hydroponics technician. I tend to these here plants. Happy plants, I call 'em. On Earth it's called a weed."
+  - "I take good care of these plants. And they take {wvy}goooood{wvy} care of me. Oh yeah."
+  - "Plants are important in space. For reasons."
+}
+"""
+
+DLG SPR_l
+The space pumpkin sees into your soul.
+
+DLG SPR_m
+"""
+{sequence
+  - "I'm a fish."
+  - "I'm a fish!"
+  - "{shk}I'M A FISH!{shk}
+    
+    But you had to keep asking, didn't you? So rude!"
+}
+"""
+
+DLG SPR_n
+"""
+{sequence
+  - "Do you know how hard it is to be a spacefaring rabbit?"
+  - "They don't design spacesuits for feet like ours."
+  - "On Earth, everyone thinks you're cool when you jump really high. In space? No one cares."
+  - "Sorry. I'm not very hoppy today."
+}
+"""
+
+DLG SPR_o
+"""
+It's a sign.
+"Beyond this airlock lies the beginning. There are no endings on this spaceship. Endings are sad."
+"""
+
+DLG SPR_p
+"Be careful, Red Dog. The answer you seek may not be what you hoped to find."
+
+DLG SPR_s
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_t
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_u
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_v
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_w
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_x
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_y
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_z
+"""
+{
+  - hatDelivery == 1 ?
+    This must be the bridge computer where Captain DudeBro wants me to enter the rainbow letters from the Captain's Logs.
+}{
+  - hatDelivery == 0 ?
+    It's a big computer.
+  - clues == 15 ?
+    
+    I found all the letters! I will type them in.
+    {rbw}{wvy}we{wvy}{rbw}
+    
+    {rbw}{wvy}are{wvy}{rbw}
+    
+    {rbw}{wvy}only{wvy}{rbw}
+    
+    {clr3}shapes{clr3}(musicNow "S")
+    
+    {wvy}...{wvy}
+    
+    DudeBro: Oh God. Oh God oh God {shk}oh Gooood!!!{shk} I remember! Oh God. We are {clr3}{shk}NOTHING!!!{shk}{clr3}
+    
+    {shk}...{shk}
+    
+    DudeBro: We are only shapes. Pixels on a screen. Trapped in a computer like this one.
+    
+    {shk}...{shk}
+    
+    DudeBro: We aren't anyone. We aren't anything. We're not going anywhere! There's no voyage. No inherent meaning to us, or to this. The stars we're flying past aren't even stars. Pixels on a screen. Pixels on a {shk}screen... *Sobsobsobsob*{shk}
+    Red Dog: Hey.(musicNow "bridge")
+    
+    So you're not a starship captain.
+    So we're not headed anywhere.
+    
+    So there's no inherent meaning to our universe.
+    But you know what? Letters are shapes. And letters are full of possibilities. We are free to pick the ones we want, to extract and arrange and reshape them to form whatever meanings we choose.
+    
+    You know what I see when I look at this message, Captain?
+    DudeBro: {shk}*sniffle*{shk} What?
+    
+    Red Dog: These four letters.
+    
+    {wvy}{rbw}hope{rbw}{wvy}(endNow "{wvy}{rbw}hope{rbw}{wvy}")
+  - clues >= 1 ?
+    
+    I don't think I've read all the Captain's Logs yet.
+}
+"""
+
+DLG SPR_q
+"""
+{
+  - metFox == 0 ?
+    "Hey there, Red Dog! Captain DudeBro here. I'm a fox!"{metFox = 1}
+  - hatDelivery == 1 ?
+    {
+      - clues < 15 ?
+        "Who's steering the ship? I don't know. I'm just the Captain. {wvy}{rbw}Tee hee!{rbw}{wvy}"
+      - else ?
+        "You found all the rainbow letters? {rbw}{wvy}Yay!{wvy}{rbw} Plug them in. Let's see what the universe has in store for us!"
+    }
+  - {item "0"} == 1 ?
+    "Oh, thank you for finding my hat, Red Dog! Yum. Tastes like chicken.
+    
+    Could I ask you, like, a teensy favor? I've kind of, um, forgotten, like, why we're here? Who we are? What this cruise is all about? That sort of thing?
+    
+    {wvy}...{wvy}
+    
+    I recorded Captain's Logs on computers all over the ship. There's a rainbow letter in each log entry. If you find all fifteen rainbow letters and enter them into my main computer here on the bridge, the ship will remember the message even though I don't. Thanks bunches, Red Dog! {rbw}Wheeee!{rbw}{hatDelivery = 1}
+  - metFox == 1 ?
+    "Have you seen my hat, Red Dog? It is a very nice hat, and I'm very hungry."
+}
+"""
+
+END 0
+The end
+
+VAR metFox
+0
+
+VAR hatDelivery
+0
+
+VAR clues
+0
+
+VAR metComputer1
+0
+
+VAR metComputer2
+0
+
+VAR metComputer3
+0
+
+VAR metComputer4
+0
+
+VAR metComputer5
+0
+
+VAR metComputer6
+0
+
+VAR metComputer7
+0
+
+VAR metComputer8
+0
+
+VAR metComputer9
+0
+
+VAR metComputer10
+0
+
+VAR metComputer11
+0
+
+VAR metComputer12
+0
+
+VAR metComputer13
+0
+
+VAR metComputer14
+0
+
+VAR metComputer15
+0
